@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2StrokeWRLD</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">2StrokeWRLD</h1>
+        <button class="theme-switch" onclick="toggleTheme()">Toggle Theme</button>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! Im Tim also known as 2StrokeWRLD.</p>
+    </section>
+
+    <section>
+        <h2>Skils</h2>
+        <ul>
+            <li>
+                <i class="fab fa-cuttlefish icon"></i> C#
+                <span class="skill-level">80%</span>
+            </li>
+            <li>
+                <i class="fab fa-python"></i> Python
+                <span class="skill-level">60%</span>
+            </li>
+            <li>
+                <i class="fab fa-html5 icon"></i> HTML5
+                <span class="skill-level">45%</span>
+            </li>
+            <li>
+                <i class="fab fa-css3 icon"></i> CSS
+                <span class="skill-level">40%</span>
+            </li>
+        </u>
+    </section>
+
+    <section>
+          <h2>Projects</h2>
+          <ul>
+
+            <li>
+                <div class="project-container">
+                    <img class="project-image" src="/images/gravity-aim.png" alt="Project 1 Image">
+                    <div>
+                        <h3><a target="_blank" href="https://github.com/2StrokeWRLD/Project-Gravity-Aim">Gravity Aim</a></h3>
+                        <p>A simple colorbot using <a target="_blank" href="https://pypi.org/project/opencv-python/">OpenCV</a></p>
+                    </div>
+                </div>
+            
+            <div class="project-container">
+                <img class="project-image" src="/images/Milkyway.png" alt="Project 2 Image">
+                <div>
+                    <h3><a target="_blank" href="https://github.com/2StrokeWRLD/Milkyway">Milkyway</a></h3>
+                    <p>A multi-tool that can be used for windows/game tweaks & game modification</p>
+                </div>
+            </div>
+          </ul>      
+    </section>
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
