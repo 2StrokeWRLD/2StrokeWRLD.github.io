@@ -2,13 +2,12 @@ body {
     font-family: 'Outfit', sans-serif;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-color: #252525;
     color: #333;
 }
 
 header {
-    background-image: url('/images/wrld.jpg');
-     
+    background-image: url('/images/wrld.jpg'); 
     padding: 1em;
     text-align: center;
 }
@@ -23,7 +22,8 @@ section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #323232;
+    color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
@@ -38,11 +38,11 @@ li {
 }
 
 h1, h2 {
-    color: #333;
+    color: #fff;
 }
 
 a {
-    color: #007BFF;
+    color: lightpink;
     text-decoration: none;
 }
 
@@ -57,61 +57,13 @@ a:hover {
 .skill-level {
     margin-left: 2px;
     font-weight: bold;
-    color: #6393bf;
-}
-
-.theme-switch {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #fff;
-    border: none;
-    padding: 5px;
-    cursor: pointer;
-    border-radius: 5px;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-body.dark-mode {
-    background-color: #252525;
-}
-
-body.dark-mode section {
-    background-color: #323232;
-    color: #fff;
-}
-
-body.dark-mode title {
-    background-color: #323232;
-}
-
-body.dark-mode a {
-    color: lightpink; /* Set the link color for dark mode */
-}
-
-body.dark-mode .skill-level {
-    margin-left: 2px;
-    font-weight: bold;
-    color: lightpink;
-}
-
-body.dark-mode button {
-    background-color: #303030;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
     color: lightpink;
 }
 
 button {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    color: #007BFF;
-}
-
-body.dark-mode h1,
-body.dark-mode h2 {
-    color: #fff;
+    color: lightpink;
 }
 
 .project-container {
